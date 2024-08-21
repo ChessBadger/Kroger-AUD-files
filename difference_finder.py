@@ -2,11 +2,11 @@
 # with open('2024-08-15 14.59 - RNYBIS.AUD.txt', 'r') as file:
 #     input_lines = set(file.readlines())
 
-with open('filtered_output.txt', 'r') as file:
+with open('C:\\Users\\clark\\OneDrive\\Desktop\\STORE365.txt', 'r') as file:
     input_lines = set(file.readlines())
 
 # Read output file
-with open('STORE365.txt', 'r') as file:
+with open('E:\\STORE365.txt', 'r') as file:
     output_lines = set(file.readlines())
 
 other_count = 0
@@ -39,7 +39,7 @@ if removed_lines:
         print(line.strip())
 
 if added_lines:
-    print("\nContent added to the output file:")
+    print("\\\\nContent added to the output file:")
     for line in added_lines:
         print(line.strip())
 
