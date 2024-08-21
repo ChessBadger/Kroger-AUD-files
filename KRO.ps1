@@ -1,6 +1,6 @@
 # Define the path for the new files
 $newFileName = "STORE"
-$newFilePath = "C:\Users\clark\OneDrive\Desktop"
+$newFilePath = "insert path to aud files here"
 
 # Get all .AUD files in the directory
 $audFiles = Get-ChildItem -Path $newFilePath -Filter "*.AUD"
