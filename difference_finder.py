@@ -1,12 +1,12 @@
 # Read input file
-# with open('2024-08-15 14.59 - RNYBIS.AUD.txt', 'r') as file:
-#     input_lines = set(file.readlines())
-
-with open('C:\\Users\\clark\\OneDrive\\Desktop\\STORE365.txt', 'r') as file:
+with open('2024-08-15 14.59 - RNYBIS.AUD', 'r') as file:
     input_lines = set(file.readlines())
 
+# with open('C:\\Users\\clark\\OneDrive\\Desktop\\STORE365.txt', 'r') as file:
+#     input_lines = set(file.readlines())
+
 # Read output file
-with open('E:\\STORE365.txt', 'r') as file:
+with open('STORE365.txt', 'r') as file:
     output_lines = set(file.readlines())
 
 other_count = 0

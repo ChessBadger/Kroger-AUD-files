@@ -1,6 +1,6 @@
 # Define the path for the new files
 $newFileName = "STORE"
-$newFilePath = "insert path to aud files here"
+$newFilePath = "C:\Users\Laptop 122\Desktop\Kroger AUD formatter"
 
 # Get all .AUD files in the directory
 $audFiles = Get-ChildItem -Path $newFilePath -Filter "*.AUD"
